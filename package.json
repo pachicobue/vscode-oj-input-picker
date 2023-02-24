@@ -1,21 +1,25 @@
 {
     "name": "oj-testcase-manager",
     "displayName": "oj-testcase-manager",
-    "description": "Procon Testcases",
+    "description": "Testcase Manager for Competitive Programming",
+    "publisher": "pachicobue",
     "version": "0.0.1",
+    "private": true,
     "engines": {
         "vscode": "^1.75.0"
     },
     "categories": [
         "Other"
     ],
-    "activationEvents": [],
+    "activationEvents": [
+        "onCommand: oj-testcase-manager.pickTestcase"
+    ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
                 "command": "oj-testcase-manager.pickTestcase",
-                "title": "oj-testcase-manager: pickTestcase"
+                "title": "oj-testcase-manager: テストケースを選択"
             }
         ]
     },
