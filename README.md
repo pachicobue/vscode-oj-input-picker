@@ -8,3 +8,4 @@
 $ git clone git@github.com:pachicobue/vscode-oj-input-picker.git
 $ npx vsce package
 ```
+2. vscodeで「VSIXからのインストール」をする
