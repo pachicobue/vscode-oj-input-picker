@@ -1,7 +1,7 @@
 {
-    "name": "oj-testcase-manager",
-    "displayName": "oj-testcase-manager",
-    "description": "Testcase Manager for Competitive Programming",
+    "name": "vscode-oj-input-picker",
+    "displayName": "vscode-oj-input-picker",
+    "description": "InputFile Picker for Competitive Programming",
     "publisher": "pachicobue",
     "version": "0.0.1",
     "private": true,
@@ -12,21 +12,21 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand: oj-testcase-manager.pickTestcase"
+        "onCommand: vscode-oj-input-picker.pickTestcase"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
                 "enablement": "false",
-                "title": "oj-testcase-manager: pickTestcase",
-                "command": "oj-testcase-manager.pickTestcase"
+                "title": "vscode-oj-input-picker: pickTestcase",
+                "command": "vscode-oj-input-picker.pickTestcase"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/pachicobue/oj-testcase-manager"
+        "url": "https://github.com/pachicobue/vscode-oj-input-picker"
     },
     "license": "UNLICENSED",
     "scripts": {

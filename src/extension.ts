@@ -3,7 +3,7 @@ import { glob } from 'glob';
 import { basename, dirname } from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
-    context.subscriptions.push(vscode.commands.registerCommand('oj-testcase-manager.pickTestcase',
+    context.subscriptions.push(vscode.commands.registerCommand('vscode-oj-input-picker.pickTestcase',
         () => pickTestcase()
     ));
 }
